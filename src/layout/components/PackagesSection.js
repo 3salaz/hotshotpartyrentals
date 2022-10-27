@@ -3,8 +3,8 @@ import { HiOutlineUserGroup } from 'react-icons/hi'
 
 const PackagesSection = () => {
     return (
-        <div className="w-full h-full">
-            <div className="h-full flex justify-between items-center flex-col bg-slate-100 drop-shadow-lg rounded-md">
+        <div className='w-full'>
+            <div className="flex justify-between items-center flex-col bg-slate-100 drop-shadow-lg rounded-md">
                 <div className="w-full">
                     <div className=' bg-red-500 p-4 text-white text-left text-2xl rounded-t-md'>
                     Services

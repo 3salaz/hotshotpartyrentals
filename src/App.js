@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className="bg-gradient-1">
+    <div className="w-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Main/>}/>

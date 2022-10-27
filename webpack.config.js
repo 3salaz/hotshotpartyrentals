@@ -28,6 +28,11 @@ module.exports = {
         },
       },
       {
+        test: /\.scss$/,
+        include: helpers.root('src', 'app'),
+        use: ['raw-loader', 'sass-loader']
+      },
+      {
         test: /\.css$/i,
         include: path.resolve(__dirname, 'src'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
@@ -44,7 +49,7 @@ module.exports = {
   },
   devServer: {
     static: path.join(__dirname, 'dist/'),
-    port: 3000,
+    port: 3001,
     historyApiFallback: true,
   },
   plugins: [
