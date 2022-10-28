@@ -1,5 +1,5 @@
-export { default as Header } from './Header';
 export { default as PackagesSection } from './PackagesSection';
+export { default as Navbar } from './Navbar';
 export { default as WeaponsSection } from './WeaponsSection';
 export { default as SafetySection } from './SafetySection';
 export { default as CardCarousel } from './CardCarousel';
@@ -7,3 +7,7 @@ export { default as Greeting } from './Greeting';
 export { default as SocialLinks } from './SocialLinks';
 export { default as StickyLinks } from './StickyLinks';
 export { default as SelectionGrid } from './SelectionGrid';
+export { default as BouncingArrow } from './BouncingArrow';
+export { default as PackageCarousel } from './PackageCarousel';
+export { default as Featured } from './Featured';
+export { default as Footer } from './Footer';

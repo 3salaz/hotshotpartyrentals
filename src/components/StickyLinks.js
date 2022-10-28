@@ -1,9 +1,11 @@
 import React from "react";
+import BouncingArrow from "./BouncingArrow";
 
 function StickyLinks() {
   return (
-    <div className="fixed bottom-4 z-50 bg-white bg-opacity-80 p-2 flex items-center justify-center w-full">
-      <ul className="sticky flex flex-col">
+    <div className="fixed bottom-0 z-50 bg-yellow-300 bg-opacity-80 pb-2 p-2 flex items-center justify-center flex-col w-full">
+      <BouncingArrow/>
+      <ul className="sticky flex flex-col items-center">
         <li className="p-3">
           <button className="rounded-md text-white drop-shadow-lg bg-orange-400 p-2 min-w-[150px] w-225 text-lg">
             Reserve Now

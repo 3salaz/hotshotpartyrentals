@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import img1 from "../../images/eds-auto-detailing.png";
 
 function CardCarousel() {
   const responsive = {

@@ -28,11 +28,6 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
-        include: helpers.root('src', 'app'),
-        use: ['raw-loader', 'sass-loader']
-      },
-      {
         test: /\.css$/i,
         include: path.resolve(__dirname, 'src'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
