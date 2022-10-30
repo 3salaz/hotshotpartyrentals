@@ -8,7 +8,7 @@ function StickyLinks() {
       <ul className="sticky flex flex-col items-center">
         <li className="p-3">
           <button className="rounded-md text-white drop-shadow-lg bg-orange-400 p-2 min-w-[150px] w-225 text-lg">
-            Reserve Now
+            Call Now
           </button>
         </li>
         <li className="p-3">

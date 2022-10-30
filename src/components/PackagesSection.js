@@ -25,6 +25,7 @@ const PackagesSection = () => {
             </div>
           </div>
         </div>
+        
         <div className="">
           <div className="w-full h-48 flex justify-center items-center">
             <ul className="text-center">
