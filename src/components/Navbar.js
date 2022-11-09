@@ -5,37 +5,41 @@ import { HiMenu } from 'react-icons/hi';
 
 const Navbar = () => {
     return (
-        <nav className='p-2 rounded-lg drop-shadow-md'>
-            <div className='w-full hidden bg-white px-10 justify-between md:flex'>
-                
+        <nav className=' drop-shadow-md p-2'>
+            <div className='w-full hidden bg-orange-500 px-10 justify-between md:flex rounded-lg py-4'>
                 <a href="/" className='flex flex-row justify-center items-center'>
                     <img
-                        src={logo}
-                        alt='logo'
-                        className='w-80 rounded-lg p-1'
+                        src="https://via.placeholder.com/500x250"
+                        alt='hot-shot-party-rentals-logo'
+                        className='w-28 rounded-lg p-1'
                     />
-                    HotShotPartyRentals
+                    <div className='text-white'>
+                        HotShotPartyRentals
+                    </div>
+                    
                 </a>
 
-                <ul className="flex justify-space-evenly items-center">
-                    <li className="px-2">
+                <ul className="flex justify-space-evenly items-center text-white font-bold gap-4 text-lg">
+                    <li className=" hover:border-b-white hover:border-b-2">
+                        <Link className='flex justify-center items-center' to="/">Home</Link>
+                    </li>
+                    <li className=" hover:border-b-white hover:border-b-2">
                         <Link className='flex justify-center items-center' to="/faq">FAQ</Link>
                     </li>
-                    <li className="px-2">
+                    <li className=" hover:border-b-white hover:border-b-2">
                         <Link to="/gallery">Gallery</Link>
                     </li>
-                    <li className="px-2">
+                    <li className=" hover:border-b-white hover:border-b-2">
                         <Link to="/packages">Packages</Link>
                     </li>
-                    <li className="px-2">
-                        <a className="rounded-full bg-orange-400 text-white p-3 border-solid border-2 drop-shadow-lg" href="https://hotshotpartyrentals.myshopify.com/" target="_blank">Shop Now</a>
+                    <li className="">
+                        <a className="rounded-lg bg-white text-orange-400 p-3 drop-shadow-lg" href="https://hotshotpartyrentals.myshopify.com/" target="_blank">Shop</a>
                     </li>
                 </ul>
 
             </div>
 
-            <div className='w-full md:hidden bg-white px-2 justify-between items-center flex'>
-                
+            <div className='w-full md:hidden bg-orange-500 px-2 justify-between items-center flex rounded-sm'> 
                 <a href="/" className='flex flex-row justify-center items-center'>
                     <img
                         src="https://via.placeholder.com/500x250"
@@ -43,27 +47,11 @@ const Navbar = () => {
                         className='w-28 rounded-lg p-1'
                     />
                 </a>
-                <div className='bg-white p-2 flex justify-center items-center rounded-lg'>
-                    <HiMenu className='text-2xl'/>
+                <div className='bg-white p-2 flex justify-center items-center rounded-sm'>
+                    <HiMenu className='text-2xl text-orange-500'/>
                 </div>
-                
-
-                {/* <ul className="flex justify-space-evenly items-center">
-                    <li className="px-2">
-                        <Link className='flex justify-center items-center' to="/faq"><MdHelpCenter className='text-orange-400 rounded-lg' />Q's</Link>
-                    </li>
-                    <li className="px-2">
-                        <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li className="px-2">
-                        <Link to="/packages">Packages</Link>
-                    </li>
-                    <li className="px-2">
-                        <a className="rounded-full bg-orange-400 text-white p-3 border-solid border-2 drop-shadow-lg" href="https://hotshotpartyrentals.myshopify.com/" target="_blank">Shop Now</a>
-                    </li>
-                </ul> */}
-                
             </div>
+
         </nav>
     )
 }

@@ -1,26 +1,36 @@
 import React from "react";
 import {
-  Greeting,
+  HeaderHero,
   StickyLinks,
   SelectionGrid,
   CardCarousel,
   SocialLinks,
   Featured,
+  PackagePricing,
+  ToggleDropdown
 } from "../components";
 
 const Home = () => {
   return (
     <>
+      <header>
+      <HeaderHero />
       <CardCarousel />
-      <Greeting />
-      <div className="bg-mainOrange rounded-xl shadow-xl m-10">
-        <SocialLinks />
-        <Featured/>
-      </div>
-      <StickyLinks />
+      </header>
+      {/* <div className="text-center font-bold text-3xl text-blue-600">
+        Look no further!
+      </div> */}
+      {/* <SocialLinks /> */}
+      <Featured/>
+      <PackagePricing/>
+      {/* <StickyLinks /> */}
+      <ToggleDropdown/>
       <SelectionGrid />
     </>
   );
 };
 
 export default Home;
+
+{/* <div className="bg-mainOrange rounded-xl shadow-xl m-10">
+</div> */}
