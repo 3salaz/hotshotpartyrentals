@@ -13,18 +13,13 @@ import {
 const Home = () => {
   return (
     <>
-      <header>
       <HeaderHero />
+      <SocialLinks />
       <CardCarousel />
-      </header>
-      {/* <div className="text-center font-bold text-3xl text-blue-600">
-        Look no further!
-      </div> */}
-      {/* <SocialLinks /> */}
-      <Featured/>
       <PackagePricing/>
-      {/* <StickyLinks /> */}
-      <ToggleDropdown/>
+      <Featured/>
+      <StickyLinks />
+      {/* <ToggleDropdown/> */}
       <SelectionGrid />
     </>
   );

@@ -7,13 +7,13 @@ const Packages = () => {
   return (
     <div>
       <Parallax
-        className="h-340"
+        className="h-420"
         blur={5}
         bgImage={waterfight}
         bgImageAlt="the cat"
         strength={200}
       >
-        <div className="w-full px-4 flex items-center justify-center h-340">
+        <div className="w-full px-4 flex items-center justify-center h-420">
           <div className="mx-auto mb-12 max-w-[510px] text-center">
             <span className="text-white mb-2 block text-lg font-semibold">
               Our Services
@@ -28,7 +28,7 @@ const Packages = () => {
           </div>
         </div>
       </Parallax>
-      <section className="pb-12 lg:pb-[90px]">
+      <section className="p-12 lg:p-[90px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">

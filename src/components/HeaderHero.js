@@ -7,7 +7,7 @@ function HeaderHero() {
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-6/12">
-            <div className="lg:ml-auto lg:text-center">
+            <div className="flex items-center justify-center">
               <div className="relative z-10 inline-block pt-3 lg:pt-0">
                 <img
                   src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
