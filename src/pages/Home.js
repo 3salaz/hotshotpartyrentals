@@ -1,25 +1,20 @@
 import React from "react";
+
 import {
   HeaderHero,
-  StickyLinks,
   SelectionGrid,
   CardCarousel,
-  SocialLinks,
-  Featured,
+  Social,
   PackagePricing,
-  ToggleDropdown
 } from "../components";
 
 const Home = () => {
   return (
     <>
       <HeaderHero />
-      <SocialLinks />
       <CardCarousel />
       <PackagePricing/>
-      <Featured/>
-      <StickyLinks />
-      {/* <ToggleDropdown/> */}
+      <Social/>
       <SelectionGrid />
     </>
   );
@@ -27,5 +22,3 @@ const Home = () => {
 
 export default Home;
 
-{/* <div className="bg-mainOrange rounded-xl shadow-xl m-10">
-</div> */}

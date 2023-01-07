@@ -16,7 +16,7 @@
     "autoprefixer": "^10.4.12",
     "cli": "^1.0.1",
     "file-loader": "^6.2.0",
-    "firebase": "^9.12.1",
+    "firebase": "^9.13.0",
     "framer-motion": "^7.6.1",
     "html-webpack-plugin": "^5.5.0",
     "plyr-react": "^5.1.0",

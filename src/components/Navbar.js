@@ -1,9 +1,11 @@
 import React from 'react';
-import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
 
 const Navbar = () => {
+    const menuToggle = () => {
+        // console.log('open menu');
+    }
     return (
         <nav className=' drop-shadow-md p-2'>
             <div className='w-full hidden bg-orange-500 px-10 justify-between md:flex rounded-lg py-4'>
@@ -48,10 +50,9 @@ const Navbar = () => {
                     />
                 </a>
                 <div className='bg-white p-2 flex justify-center items-center rounded-sm'>
-                    <HiMenu className='text-2xl text-orange-500'/>
+                    <HiMenu onClick={menuToggle()} className='text-4xl text-orange-500'/> 
                 </div>
             </div>
-
         </nav>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
+import { siteConfig } from '../data/initial';
 
 function CardCarousel() {
   const responsive = {
@@ -21,20 +22,17 @@ function CardCarousel() {
       items: 1,
     },
   };
+  let imgCarousel = siteConfig['home']['sections']['imgCarousel'];
+
   return (
-    <Carousel responsive={responsive}>
-      <div className="bg-orange-200">
-        <img src="https://via.placeholder.com/560x300" alt="carousel" />
-      </div>
-      <div className="bg-orange-200">
-        <img src="https://via.placeholder.com/560x300" alt="carousel" />
-      </div>
-      <div className="bg-orange-200">
-        <img src="https://via.placeholder.com/560x300" alt="carousel" />
-      </div>
-      <div className="bg-orange-200">
-        <img src="https://via.placeholder.com/560x300" alt="carousel" />
-      </div>
+    <Carousel className="border-t-mainOrange border-t-4" responsive={responsive}>
+      {
+        imgCarousel.map(img => (
+          <div key={img.id} className="bg-orange-200">
+            <img src={img.link} alt={img.name}/>
+          </div>
+        ))
+      }
     </Carousel>
   );
 }

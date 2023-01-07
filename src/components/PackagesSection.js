@@ -4,6 +4,9 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 const PackagesSection = () => {
   return (
     <div className="w-full">
+      <div className="">
+        <a href="#" className="btn rounded bg-blue-500">Something Here</a>
+      </div>
       <div className="flex justify-between items-center flex-col gap-12 bg-slate-100 drop-shadow-lg rounded-md">
         <div className="w-full">
           <div className=" bg-red-500 p-4 text-white text-left text-2xl rounded-t-md">

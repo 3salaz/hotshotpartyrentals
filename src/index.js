@@ -5,6 +5,9 @@ import 'alpinejs';
 import App   from './App';
 import './App.css';
 
+// Firebase configuration
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

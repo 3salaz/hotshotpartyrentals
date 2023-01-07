@@ -47,6 +47,9 @@ module.exports = {
     port: 3001,
     historyApiFallback: true,
   },
+  experiments: {
+    topLevelAwait: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
