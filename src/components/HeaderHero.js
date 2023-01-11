@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from "react";
-import { collection, getDocs } from 'firebase/firestore'
-import { db } from "../lib/firebase-init";
-import { siteConfig } from '../data/initial'; 
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+// import { collection, getDocs } from 'firebase/firestore'
+// import { db } from "../lib/firebase-init";
+import { siteConfig } from "../data/initial";
 
 function HeaderHero() {
   // const [siteData, setSiteData] = useState([]);
@@ -35,14 +36,14 @@ function HeaderHero() {
   //   .catch(err => console.log(err));
   // }
 
-  let header = siteConfig['home']['sections']['header'];
+  let header = siteConfig["home"]["sections"]["header"];
   return (
     <header className="flex p-4 justify-center items-center py-12 lg:py-28">
       <div className="container mx-auto">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-6/12">
             <div className="flex items-center justify-center">
-              <div className="relative z-10 inline-block pt-3 lg:pt-0">
+              <div className="relative inline-block pt-3 lg:pt-0">
                 <img
                   src={header.featuredHeaderImg}
                   alt="hero"
@@ -88,24 +89,20 @@ function HeaderHero() {
           </div>
 
           <div className="block px-4 lg:hidden lg:w-1/12"></div>
-          
           <div className="w-full px-4 lg:w-5/12">
             <div className="hero-content">
-              <h1 className="pt-6 text-dark mb-3 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center">
-                {header.headerText || 'some text here'}
+              <h1 className="pt-6 text-dark my-6 lg:mb-18 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center">
+                {header.headerText || "some text here"}
               </h1>
-              <p className="text-body-color mb-8 text-base text-center items-center">
+              <p className="text-body-color my-6 lg:mt-2 lg:mb-16 text-base text-center items-center">
                 {header.headerSubText}
               </p>
               <ul className="flex flex-wrap items-center justify-center gap-3">
                 <li>
-                  <a
-                    href={header.links.buttonLink.link}
-                    target="_blank"
+                  <Link 
+                    to={header.links.buttonLink.link}
                     className="bg-orange-500 inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
-                  >
-                    {header.links.buttonLink.text}
-                  </a>
+                  >{header.links.buttonLink.text}</Link>
                 </li>
                 <li>
                   <a
@@ -152,19 +149,15 @@ function HeaderHero() {
                   <span className="bg-body-color ml-2 inline-block h-[1px] w-8"></span>
                 </h6>
                 <div className="flex items-center">
-                  {header.clientHighlight.map(client => (
-                    <div key={client.id} className=''>
-                      <img
-                        src={client.logoImg}
-                        alt={client.name}
-                      />
+                  {header.clientHighlight.map((client) => (
+                    <div key={client.id} className="">
+                      <img src={client.logoImg} alt={client.name} />
                     </div>
                   ))}
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </header>

@@ -14,3 +14,5 @@ export { default as ToggleDropdown } from './ToggleDropdown';
 export { default as Modal } from './Modal';
 export { default as Footer } from './Footer';
 export { default as InquiryForm } from './InquiryForm';
+export { default as Gallery } from './Gallery';
+export { default as LightboxBtn } from './LightboxBtn';

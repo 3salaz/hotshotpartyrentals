@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SelectionGrid() {
   return (
     <section className="lg:py-[60px]">
       <div className="container mx-auto">
-        <div className="bg-mainOrange relative z-10 overflow-hidden rounded py-12 px-8 md:p-[70px]">
+        <div className="bg-mainOrange relative overflow-hidden rounded py-12 px-8 md:p-[70px]">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <span className="mb-2 text-base font-semibold text-white">
@@ -23,12 +24,10 @@ function SelectionGrid() {
                 >
                   Reservation Form
                 </a>
-                <a
-                  href=""
-                  className="my-1 inline-block rounded bg-mainBlue py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
-                >
-                  FAQ
-                </a>
+                <Link 
+                to="/faq"
+                className="my-1 inline-block rounded bg-mainBlue py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
+                >FAQ</Link>
               </div>
             </div>
           </div>

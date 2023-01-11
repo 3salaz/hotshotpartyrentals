@@ -9,17 +9,17 @@ export let siteConfig = {
     home: {
         sections: {
             header: {
-                featuredHeaderImg: 'https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png',
+                featuredHeaderImg: 'https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fgun-holding%20(1)%20(1).png?alt=media&token=31644296-2277-4721-b1fc-4750cc03976b',
                 headerText: 'HotShot PartyRentals',
                 headerSubText: 'Thank you for visiting Hot Shot party rentals. We value your interest in our company and hope that we will be able to assist in planning your next event.',
                 links: {
                     buttonLink: {
                         text: "Our Packages",
-                        link: "https://google.com"
+                        link: "/packages"
                     },
                     simpleLink: {
-                        text: "Download Waiver123",
-                        link: "https://github.com"
+                        text: "Download Waiver",
+                        link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/docs%2FWaiver%20and%20Release%20of%20Liability.docx?alt=media&token=a0de4340-4e7b-4eb4-ac61-0e8bc7ffa359"
                     }  
                 },
                 clientHighlight: [
@@ -43,22 +43,22 @@ export let siteConfig = {
             imgCarousel: [
                 {
                     name: "img-1",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2F1.png?alt=media&token=79ef8c38-7fe0-4839-91c1-435cb9e514fa",
+                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F1.png?alt=media&token=f476d1f4-6e1e-4c9e-bb7d-b5e4aac8c6ba",
                     id: "1"
                 },
                 {
                     name: "img-2",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2F2.png?alt=media&token=cc0e5b8f-aa0a-43d0-a375-8aa54f5ae617",
+                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F3.png?alt=media&token=10ce9a4d-10c0-43d6-b516-73c344f53d94",
                     id: "2"
                 },
                 {
                     name: "img-3",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2F3.png?alt=media&token=d9e3dc1f-2cee-4285-b38c-24c2c36d9db0",
+                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F2.png?alt=media&token=f599109f-7431-47c9-969c-c0ab9d2fafe3",
                     id: "3"
                 },
                 {
                     name: "img-4",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2F4.png?alt=media&token=da8d66ef-3e9e-4ba9-90bd-59b2ba5a7565",
+                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F4.png?alt=media&token=d6a54bbe-f601-44d4-8dfa-5e77d79ea7fd",
                     id: "4"
                 },
             ],
@@ -84,7 +84,7 @@ export let siteConfig = {
                         name: "Sharpshooter",
                         price: "$400",
                         options: [
-                            "Recommended for ages 3 and up",
+                            "Recommended for ages 8 and up",
                             "Foam ball blasters (air pressured)",
                             "Safety equipment",
                             "Barriers to hide in and around",
@@ -97,7 +97,7 @@ export let siteConfig = {
                         name: "Expert",
                         price: "$425",
                         options: [
-                            "Recommended for ages 3 and up",
+                            "Recommended for ages 10 and up",
                             "Foam ball blasters (air pressured)",
                             "Safety equipment",
                             "Barriers to hide in and around",
