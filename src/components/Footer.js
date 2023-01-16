@@ -101,6 +101,9 @@ const Footer = () => {
                         <button className="px-4 py-2 bg-orange-500 hover:bg-orange-500 rounded text-white">
                         <Link 
                     to="/packages"
+                    onClick={() => {
+                        window.scroll(0, 0);
+                      }}
                     className="bg-orange-500 inline-flex items-center justify-center rounded-lg py-4 px-6 text-center text-base font-normal text-white hover:bg-opacity-90 sm:px-10 lg:px-8 xl:px-10"
                   >Packages</Link>
                         </button>

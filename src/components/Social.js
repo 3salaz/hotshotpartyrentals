@@ -23,8 +23,7 @@ function Social() {
                   </a>
                 </h3>
                 <p className="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+                  Every review  truly helps, any feedback is welcome and appriciated. 
                 </p>
                 <a
                   href="https://www.yelp.com/writeareview/biz/3NG4Bs3L-fa75JOaFrllsA?return_url=%2Fbiz%2F3NG4Bs3L-fa75JOaFrllsA&review_origin=biz-details-war-button"
@@ -70,14 +69,13 @@ function Social() {
                   </a>
                 </h3>
                 <p className="text-body-color mb-7 text-base leading-relaxed">
-                  Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                  elit. Lorem consectetur adipiscing elit.
+                  Join us as we build our social presence this year on Facebook and Instagram
                 </p>
                 <a
                   href=""
                   className="text-body-color hover:border-primary hover:bg-primary inline-block rounded-full border border-[#E5E7EB] py-2 px-7 text-base font-medium transition hover:text-white"
                 >
-                  View Details
+                  Follow
                 </a>
               </div>
             </div>

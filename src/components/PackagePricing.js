@@ -90,7 +90,7 @@ function PackagePricing() {
                     ))}
                   </ul>
                   <button
-                    className="text-mainRed hover:bg-mainRed hover:border-mainRed block w-full rounded-md border border-[#D4DEFF] bg-transparent p-4 text-center text-base font-semibold transition hover:text-white"
+                    className="text-mainRed border-mainRed hover:bg-mainRed block w-full rounded-md border bg-transparent p-4 text-center text-base font-semibold transition hover:text-white"
                     onClick={openModal}
                   >
                     View {p.name}

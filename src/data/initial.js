@@ -19,7 +19,7 @@ export let siteConfig = {
                     },
                     simpleLink: {
                         text: "Download Waiver",
-                        link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/docs%2FWaiver%20and%20Release%20of%20Liability.docx?alt=media&token=a0de4340-4e7b-4eb4-ac61-0e8bc7ffa359"
+                        link: "https://form.jotform.com/230154922433045"
                     }  
                 },
                 clientHighlight: [
@@ -72,11 +72,13 @@ export let siteConfig = {
                         price: "$375",
                         options: [ 
                             "Recommended for ages 3 and up",
-                            "Foam ball blasters (air pressured)",
+                            "45 minutes of play time",
+                            "Up to 10 participants",
+                            "Foam Ball Blasters | Air Pressured",
                             "Safety equipment",
                             "Barriers to hide in and around",
                             "Experienced party host",
-                            "Foam balls"
+                            "Foam Balls"
                         ]  
                     },
                     {
@@ -85,11 +87,13 @@ export let siteConfig = {
                         price: "$400",
                         options: [
                             "Recommended for ages 8 and up",
-                            "Foam ball blasters (air pressured)",
+                            "1 hour of play time",
+                            "Up to 10 participants",
+                            "Gel Blaster Pistols",
                             "Safety equipment",
                             "Barriers to hide in and around",
                             "Experienced party host",
-                            "Foam balls"
+                            "Gel Blaster Bullets"
                         ]
                     },
                     {
@@ -98,11 +102,13 @@ export let siteConfig = {
                         price: "$425",
                         options: [
                             "Recommended for ages 10 and up",
-                            "Foam ball blasters (air pressured)",
+                            "1 hour of play time",
+                            "Up to 10 participants",
+                            "Gel Blaster Rifles",
                             "Safety equipment",
                             "Barriers to hide in and around",
                             "Experienced party host",
-                            "Foam balls"
+                            "Gel Blaster Bullets"
                         ]
                     }
                 ]
