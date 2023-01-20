@@ -1,13 +1,14 @@
 import React from "react";
-import { InquiryForm, Modal } from "../components";
+import { InquiryForm } from "../components";
 
 const Packages = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-20 px-2 w-full">
       <section className="w-full flex items-center justify-center">
-        <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
-            <Modal/>
+            <section className="smooth-scroll">
+
+            </section>
             <button className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
                 <div className="bg-mainBlue m-auto mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
@@ -79,10 +80,9 @@ const Packages = () => {
               </div>
             </button>
           </div>
-        </div>
       </section>
       <section className="w-full flex items-center justify-center">
-        <div className=" container">
+        <div className="">
           <InquiryForm />
         </div>
       </section>

@@ -25,7 +25,8 @@ function CardCarousel() {
   let imgCarousel = siteConfig['home']['sections']['imgCarousel'];
 
   return (
-    <Carousel className="border-t-mainOrange border-t-4" responsive={responsive}>
+    <div className="border-t-mainOrange border-t-4 w-full">
+      <Carousel className="" responsive={responsive}>
       {
         imgCarousel.map(img => (
           <div key={img.id} className="bg-orange-200">
@@ -34,6 +35,8 @@ function CardCarousel() {
         ))
       }
     </Carousel>
+    </div>
+    
   );
 }
 

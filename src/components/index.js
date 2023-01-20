@@ -1,4 +1,4 @@
-export { default as PackagesSection } from './PackagesSection';
+// export { default as PackagesSection } from './PackagesSection';
 export { default as Navbar } from './Navbar';
 export { default as WeaponsSection } from './WeaponsSection';
 export { default as SafetySection } from './SafetySection';

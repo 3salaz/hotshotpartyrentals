@@ -7,7 +7,7 @@ import { Home, About, Packages, Faq}  from './pages'
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>}/>

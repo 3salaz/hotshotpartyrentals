@@ -10,13 +10,13 @@ import {
 
 const Home = () => {
   return (
-    <>
+    <div className="pt-8">
       <HeaderHero />
       <CardCarousel />
       <PackagePricing/>
       <Social/>
       <SelectionGrid />
-    </>
+    </div>
   );
 };
 
