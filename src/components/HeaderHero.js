@@ -38,11 +38,11 @@ function HeaderHero() {
 
   let header = siteConfig["home"]["sections"]["header"];
   return (
-    <header className="flex p-4 justify-center items-center py-12 lg:py-28">
-      <div className="container mx-auto">
-        <div className="-mx-4 flex flex-wrap justify-center">
+    <header className="flex justify-center items-center py-16 lg:py-28">
+
+        <div className="flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-6/12">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-left">
               <div className="relative inline-block pt-3 lg:pt-0">
                 <img
                   src={header.featuredHeaderImg}
@@ -87,7 +87,7 @@ function HeaderHero() {
               </div>
             </div>
           </div>
-
+          
           <div className="block px-4 lg:hidden lg:w-1/12"></div>
           <div className="w-full px-4 lg:w-5/12">
             <div className="hero-content">
@@ -162,7 +162,6 @@ function HeaderHero() {
             </div>
           </div>
         </div>
-      </div>
     </header>
   );
 }

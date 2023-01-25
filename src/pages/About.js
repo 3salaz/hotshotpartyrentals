@@ -2,12 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <section className="overflow-hidden pt-20 pb-12 lg:pt-[10px] lg:pb-[90px]">
+    <section className="overflow-hidden pt-24 pb-12 md:pt-36 lg:pb-[90px] px-2">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap items-center justify-between">
           <div className="w-full px-4 lg:w-6/12">
             <div className="-mx-3 flex items-center sm:-mx-4">
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
+              <div className="w-full px-3 sm:px-4 xl:w-2/6">
                 <div className="py-3 sm:py-4">
                   <img
                     src="https://cdn.tailgrids.com/1.0/assets/images/services/image-1.jpg"
@@ -24,7 +24,7 @@ function About() {
                 </div>
               </div>
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className="relative z-10 my-4">
+                <div className="relative z-0 my-4">
                   <img
                     src="https://cdn.tailgrids.com/1.0/assets/images/services/image-3.jpg"
                     alt=""
@@ -636,11 +636,11 @@ function About() {
                 Hahaha).
               </p>
               <a
-                href=""
-                className="bg-orange-500 inline-flex items-center justify-center rounded-lg py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+                href="mailto:hotshotpartyrentals@gmail.com?subject=ContactForm|"
+                className="bg-orange-500 w-[50%] m-auto flex items-center justify-center rounded-lg py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
               >
                 Contact
-              </a>
+            </a>
             </div>
           </div>
         </div>
