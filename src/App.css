@@ -586,3 +586,15 @@ body {
 .rtl.react-multiple-carousel__arrow--left::before {
   content: "\e825";
 }
+
+/* Smooth Scroll */
+
+.smooth-scroll {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.smooth-scroll div{
+  min-width: 20rem;
+  scroll-snap-align: center;
+}
+

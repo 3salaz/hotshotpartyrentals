@@ -80,9 +80,8 @@ const Navbar = () => {
       </div>
 
       {/* Mobile */}
-      <div className="md:hidden bg-orange-500 justify-between items-center flex rounded-sm">
+      <div className="md:hidden bg-orange-500 justify-between items-center flex rounded-sm px-4">
         <Link
-          to=""
           href="/"
           className="flex flex-row justify-center items-center"
         >
@@ -103,20 +102,19 @@ const Navbar = () => {
                     /> */}
           <motion.div
             whileTap={{ scale: 0.6 }}
-            className="w-0 min-w-[40px] h-10 min-h-[40px] ml-3 drop-shadow-xl rounded-full bg-orange-200 flex items-center justify-center"
+            className="w-0 min-w-[40px] h-10 min-h-[40px] ml-3 drop-shadow-xl rounded-full bg-white flex items-center justify-center"
             onClick={toggleMenu}
           >
             <HiMenu className="text-xl" />
           </motion.div>
-
           {isMenu && (
             <motion.div
               initial={{ opacity: 0, scale: 0.6 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.6 }}
-              className="absolute top-20 mr-1 right-0 w-150 bg-white shadow-xl rounded-lg flex flex-col"
+              className="absolute top-12 mr-1 right-0 w-150 bg-white shadow-xl rounded-lg flex flex-col"
             >
-              {/* {user && user.email === "3salaz.dev@gmail.com" && (
+            {/* {user && user.email === "3salaz.dev@gmail.com" && (
                                 <Link to="/createItem">
                                     <p className='px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-200 transition-all duration-100 ease-in-out text-textColor text-base'>New Item <MdAdd /></p>
                                 </Link>
@@ -151,6 +149,7 @@ const Navbar = () => {
             </motion.div>
           )}
         </div>
+
         {/* <div className="bg-white p-2 flex justify-center items-center rounded-sm">
           <HiMenu className="text-2xl text-orange-500" />
         </div> */}

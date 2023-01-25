@@ -50,7 +50,7 @@ function PackagePricing() {
                     View {p.name}
                   </button>
                   <div>
-                    <Modal open={mmIsOpen} onClose={() => mmSetIsOpen(false)}>
+                    {/* <Modal open={mmIsOpen} onClose={() => mmSetIsOpen(false)}>
                       <ul className="mb-7">
                         {p.options.map((listItem) => (
                           <li className="py-2" key={listItem + 1}>
@@ -58,7 +58,7 @@ function PackagePricing() {
                           </li>
                         ))}
                       </ul>
-                    </Modal>
+                    </Modal> */}
                   </div>
                   <span className="absolute right-0 top-7 z-[-1]">
                     <svg

@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react'
 
-function Modal({ open, children, onClose }) {
-  if (!open) return null;
+function Modal() {
   return (
     <div className="w-full rounded-lg backdrop-blur-md h-screen z-50 fixed top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]">
       <div className="flex h-full items-center justify-center">
@@ -13,7 +12,7 @@ function Modal({ open, children, onClose }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Modal;
+export default Modal
