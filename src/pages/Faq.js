@@ -41,7 +41,7 @@ const Faq = () => {
       </Parallax>
       
       {/* Questions Starts */}
-      <section className="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+      <section className="relative z-0 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/2">
