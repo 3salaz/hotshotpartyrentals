@@ -14,13 +14,13 @@ const Faq = () => {
   return (
     <>
       <Parallax
-        className="h-420"
-        blur={5}
+        className="h-600 md:h-420"
+        blur={0}
         bgImage={watergun}
         bgImageAlt="the cat"
-        strength={200}
+        strength={100}
       >
-        <div className="container mx-auto flex items-center justify-center h-420">
+        <div className="container mx-auto flex items-center justify-center mt-24 h-420">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
@@ -30,7 +30,7 @@ const Faq = () => {
                 <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-[80px] p-6">
                   FAQ
                 </h2>
-                <p className="text-base text-white bg-green-600 opacity-90 p-2 rounded-md">
+                <p className="text-base text-white bg-green-600 opacity-90 p-2 rounded-md px-8">
                   There are many variations of passages of Lorem Ipsum available
                   but the majority have suffered alteration in some form.
                 </p>
