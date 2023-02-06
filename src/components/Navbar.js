@@ -12,7 +12,11 @@ const Navbar = () => {
     <nav className=" drop-shadow-md w-full fixed z-10">
       {/* Desktop */}
       <div className="hidden bg-orange-500 px-10 justify-between md:flex rounded-b-md py-2">
-        <a href="/" className="flex flex-row justify-center items-center">
+        <Link  to="/" 
+        onClick={() => {
+                window.scroll(0, 0);
+        }} 
+        className="flex flex-row justify-center items-center">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2FGraphics%2FLogos%2Ficon.png?alt=media&token=65e2bf1f-2f21-4d28-a8a1-6ba765706ed2"
             alt="hot-shot-party-rentals-logo"
@@ -21,7 +25,7 @@ const Navbar = () => {
           <div className="text-white text-xl font-bold">
             HotShot Party Rentals
           </div>
-        </a>
+        </Link>
 
         <ul className="flex justify-space-evenly items-center text-white font-bold gap-4 text-lg">
           <li className=" hover:border-b-white hover:border-b-2">

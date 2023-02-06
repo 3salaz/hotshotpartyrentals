@@ -26,6 +26,9 @@ function SelectionGrid() {
                 </a>
                 <Link 
                 to="/faq"
+                onClick={() => {
+                  window.scroll(0, 0);
+                }}
                 className="my-1 inline-block rounded bg-mainBlue py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
                 >FAQ</Link>
               </div>

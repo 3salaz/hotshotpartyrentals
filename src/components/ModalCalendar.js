@@ -4,7 +4,8 @@ import { Backdrop } from '../components';
 
 const dropIn = {
   hidden: {
-    y: "-100vh"
+    y: "-100vh",
+    opacity: 0
   },
   visible: {
     y: "0",
@@ -19,7 +20,6 @@ const dropIn = {
   exit: {
     y: "100vh",
     opacity: 0
-
   }
 }
 function ModalCalendar({ handleClose, text }) {

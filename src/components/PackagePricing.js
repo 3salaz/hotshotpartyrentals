@@ -14,7 +14,7 @@ function PackagePricing() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
-              <p className="text-mainRed mb-4 text-5xl font-bold text-center">
+              <p className="text-gray-800 mb-4 text-5xl font-bold text-center">
                 {pricing.title}
               </p>
               <p className="text-body-color text-base text-white">

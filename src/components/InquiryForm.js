@@ -16,7 +16,7 @@ function InquiryForm() {
               <h3 className="text-lg font-medium leading-6 text-gray-900">Reserve Your Spot</h3>
               <p className="mt-1 text-sm text-gray-600">Complete the form below</p>
             </div>
-            <div className="px-4 h-full bg-orange-500 flex items-center justify-center">
+            <div className="px-4 h-full flex items-center justify-center">
               <div className="flex flex-col text-center justify-bewtween">
                 <img src="https://via.placeholder.com/450"></img>
                 <div className="pt-3 text-2xl">Sharpshooter</div>

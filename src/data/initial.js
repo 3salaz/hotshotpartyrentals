@@ -19,7 +19,7 @@ export let siteConfig = {
                     },
                     simpleLink: {
                         text: "Download Waiver",
-                        link: "https://form.jotform.com/230154922433045"
+                        link: "https://form.jotform.com/hotshotpartyrentals/waiver-and-release-of-liability-wai"
                     }  
                 },
                 clientHighlight: [
