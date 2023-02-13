@@ -1,5 +1,4 @@
 import React from "react";
-import nerfGun from "../images/NerfGun5.png";
 
 function SocialLinks() {
   return (

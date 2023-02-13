@@ -1,13 +1,13 @@
 import React from 'react'
 import {  motion } from  'framer-motion';
 
- function Backdrop({ children, onClick  }) {
+ function Backdrop({ children, onClick }) {
    return (
      <motion.div
-        className="absolute top-0 left-0 h-full w-full bg-mainBlue opacity-80 flex items-center justify-center"
+        className="fixed top-0 left-0 h-full w-full bg-mainBlue flex items-center justify-center z-30"
         onClick={onClick}
         initial={{opacity: 0}}
-        animate={{ opacity: 1}}
+        animate={{ opacity: 1}} 
         exit={{opacity: 0}}
     >
         {children}

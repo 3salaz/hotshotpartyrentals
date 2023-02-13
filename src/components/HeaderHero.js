@@ -1,40 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import { collection, getDocs } from 'firebase/firestore'
-// import { db } from "../lib/firebase-init";
 import { siteConfig } from "../data/initial";
 
 function HeaderHero() {
-  // const [siteData, setSiteData] = useState([]);
-
-  // useEffect(() => {
-  //   getSiteData();
-  // }, [])
-
-  // useEffect(() => {
-  //   console.log(siteData);
-  //   console.log(siteData[0]);
-  //   siteData.map(page => {
-  //     console.log(page.data);
-  //     // let homePageData = page.data['Home'];
-  //     // let headerImage = homePageData['Header'].featuredImage
-  //     // console.log(headerImage);
-  //   })
-  // },[siteData]
-  // )
-
-  // const getSiteData = () => {
-  //   const siteDataCollectionRef = collection(db, 'website')
-  //   getDocs(siteDataCollectionRef)
-  //   .then(response => {
-  //     const siteDataMap = response.docs.map(doc => ({
-  //       data: doc.data(),
-  //       id: doc.id
-  //     }))
-  //     setSiteData(siteDataMap);
-  //   })
-  //   .catch(err => console.log(err));
-  // }
 
   let header = siteConfig["home"]["sections"]["header"];
   return (
@@ -87,12 +55,11 @@ function HeaderHero() {
               </div>
             </div>
           </div>
-          
           <div className="block px-4 lg:hidden lg:w-1/12"></div>
           <div className="w-full px-4 lg:w-5/12">
             <div className="hero-content">
-              <h1 className="pt-6 text-dark my-6 lg:mb-18 text-4xl font-bold leading-snug sm:text-[42px] lg:text-[40px] xl:text-[42px] text-center">
-                {header.headerText || "some text here"}
+              <h1 className="pt-6 text-dark my-6 lg:mb-18 text-4xl font-bold leading-snug sm:text-[50px] lg:text-[40px] xl:text-[50px] text-center">
+                {header.headerText}
               </h1>
               <p className="text-body-color my-6 lg:mt-2 lg:mb-16 text-base text-center items-center">
                 {header.headerSubText}

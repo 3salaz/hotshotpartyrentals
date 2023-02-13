@@ -19,7 +19,7 @@ function SelectionGrid() {
             <div className="w-full px-4 lg:w-1/2">
               <div className="flex flex-wrap lg:justify-end">
                 <a
-                  href=""
+                  href="https://form.jotform.com/230359197359164"
                   className="hover:text-mainOrange my-1 mr-4 inline-block rounded bg-white py-4 px-6 text-base font-medium text-mainBlue transition hover:bg-opacity-100 md:px-9 lg:px-6 xl:px-9"
                 >
                   Reservation Form

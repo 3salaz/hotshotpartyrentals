@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import icon from '../assets/img/icon.png';
 
 const Navbar = () => {
   const [isMenu, setIsMenu] = React.useState(false);
@@ -11,14 +12,16 @@ const Navbar = () => {
   return (
     <nav className=" drop-shadow-md w-full fixed z-10">
       {/* Desktop */}
-      <div className="hidden bg-orange-500 px-10 justify-between md:flex rounded-b-md py-2">
-        <Link  to="/" 
-        onClick={() => {
-                window.scroll(0, 0);
-        }} 
-        className="flex flex-row justify-center items-center">
+      <div className="hidden bg-orange-500 px-10 justify-between md:flex py-2">
+        <Link
+          to="/"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
+          className="flex flex-row justify-center items-center"
+        >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2FGraphics%2FLogos%2Ficon.png?alt=media&token=65e2bf1f-2f21-4d28-a8a1-6ba765706ed2"
+            src= {icon}
             alt="hot-shot-party-rentals-logo"
             className="w-20 rounded-lg"
           />
@@ -61,7 +64,7 @@ const Navbar = () => {
               FAQ
             </Link>
           </li>
-          <li className=" hover:border-b-white hover:border-b-2">
+          <li className=" rounded-lg bg-white text-orange-400 p-3 drop-shadow-lg">
             <Link
               to="/packages"
               onClick={() => {
@@ -71,26 +74,20 @@ const Navbar = () => {
               Packages
             </Link>
           </li>
-          <li className="">
-            <a
-              className="rounded-lg bg-white text-orange-400 p-3 drop-shadow-lg"
-              href="https://hotshotpartyrentals.myshopify.com/"
-              target="_blank"
-            >
-              Gallery
-            </a>
-          </li>
         </ul>
       </div>
 
       {/* Mobile */}
       <div className="md:hidden bg-orange-500 justify-between items-center flex rounded-sm px-4">
         <Link
-          href="/"
+          to="/"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
           className="flex flex-row justify-center items-center"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2FGraphics%2FLogos%2Ficon.png?alt=media&token=65e2bf1f-2f21-4d28-a8a1-6ba765706ed2"
+            src={icon}
             alt="hot-shot-party-rentals-logo"
             className="w-16 rounded-lg p-1"
           />
@@ -118,45 +115,47 @@ const Navbar = () => {
               exit={{ opacity: 0, scale: 0.6 }}
               className="absolute top-12 mr-1 right-0 w-150 bg-white shadow-xl rounded-lg flex flex-col"
             >
-            {/* {user && user.email === "3salaz.dev@gmail.com" && (
-                                <Link to="/createItem">
-                                    <p className='px-4 py-2 flex items-center gap-3 cursor-pointer hover:bg-slate-200 transition-all duration-100 ease-in-out text-textColor text-base'>New Item <MdAdd /></p>
-                                </Link>
-                            )} */}
-
               <ul className="flex flex-col text-center">
                 <Link
                   to={"/"}
+                  onClick={() => {
+                    window.scroll(0, 0);
+                  }}
                   className="text-base text-headerColor hover:text-headerColor duration-100 transition-all ease-in-out cursor-pointer px-4 py-2 hover:bg-slate-200"
                 >
                   Home
                 </Link>
                 <Link
                   to={"/about"}
+                  onClick={() => {
+                    window.scroll(0, 0);
+                  }}
                   className="text-base text-headerColor hover:text-headerColor duration-100 transition-all ease-in-out cursor-pointer px-4 py-2 hover:bg-slate-200"
                 >
                   About
-                </Link> 
-                <Link
-                  to={"/packages"}
-                  className="text-base text-headerColor hover:text-headerColor duration-100 transition-all ease-in-out cursor-pointer px-4 py-2 hover:bg-slate-200"
-                >
-                  Packages
                 </Link>
                 <Link
                   to={"/faq"}
+                  onClick={() => {
+                    window.scroll(0, 0);
+                  }}
                   className="text-base text-headerColor hover:text-headerColor duration-100 transition-all ease-in-out cursor-pointer px-4 py-2 hover:bg-slate-200"
                 >
                   FAQ
+                </Link>
+                <Link
+                  to={"/packages"}
+                  onClick={() => {
+                    window.scroll(0, 0);
+                  }}
+                  className="text-base text-headerColor hover:text-headerColor duration-100 transition-all ease-in-out cursor-pointer px-4 py-2 hover:bg-slate-200"
+                >
+                  Packages
                 </Link>
               </ul>
             </motion.div>
           )}
         </div>
-
-        {/* <div className="bg-white p-2 flex justify-center items-center rounded-sm">
-          <HiMenu className="text-2xl text-orange-500" />
-        </div> */}
       </div>
     </nav>
   );

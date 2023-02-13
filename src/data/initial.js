@@ -1,3 +1,9 @@
+import featuredHeader from '../assets/img/featuredHeader.png';
+import cardImg1 from '../assets/img/card1.png';
+import cardImg2 from '../assets/img/card2.png';
+import cardImg3 from '../assets/img/card3.png';
+import cardImg4 from '../assets/img/card4.png';
+
 export let siteConfig = {
     info : {
         socialMedia :{
@@ -9,7 +15,7 @@ export let siteConfig = {
     home: {
         sections: {
             header: {
-                featuredHeaderImg: 'https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fgun-holding%20(1)%20(1).png?alt=media&token=31644296-2277-4721-b1fc-4750cc03976b',
+                featuredHeaderImg: featuredHeader,
                 headerText: 'HotShot PartyRentals',
                 headerSubText: 'Thank you for visiting Hot Shot party rentals. We value your interest in our company and hope that we will be able to assist in planning your next event.',
                 links: {
@@ -43,28 +49,28 @@ export let siteConfig = {
             imgCarousel: [
                 {
                     name: "img-1",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F1.png?alt=media&token=f476d1f4-6e1e-4c9e-bb7d-b5e4aac8c6ba",
+                    link: cardImg1,
                     id: "1"
                 },
                 {
                     name: "img-2",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F3.png?alt=media&token=10ce9a4d-10c0-43d6-b516-73c344f53d94",
+                    link: cardImg2,
                     id: "2"
                 },
                 {
                     name: "img-3",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F2.png?alt=media&token=f599109f-7431-47c9-969c-c0ab9d2fafe3",
+                    link: cardImg3,
                     id: "3"
                 },
                 {
                     name: "img-4",
-                    link: "https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2Ftemp%2Fslides%2F4.png?alt=media&token=d6a54bbe-f601-44d4-8dfa-5e77d79ea7fd",
+                    link: cardImg4,
                     id: "4"
                 },
             ],
             pricing: {
-                title: "Our Packages",
-                subTitle: "A deposit is required to book your event, Deposit amount due to book your event is $200.00, Cancellations must be made no less than 5 days in advance or no refund will be granted.",
+                title: "Check them out below",
+                subTitle: "",
                 packages: [
                     {
                         id:1,

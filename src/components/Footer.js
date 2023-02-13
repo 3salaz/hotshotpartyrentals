@@ -7,31 +7,22 @@ const Footer = () => {
     <footer className="footer-1 bg-white py-8 sm:py-12">
       <div className="container mx-auto px-4">
         <div className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4 text-center">
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
-            <h5 className="text-xl font-bold mb-6">Features</h5>
+        <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+            <h5 className="text-xl font-bold mb-6">Help</h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
-                <a
-                  href="#"
+                <Link to="/faq"
                   className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
                 >
-                  Marksman
-                </a>
+                  FAQ
+                </Link>
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="mailto:hotshotpartyrentals@gmail.com?subject=ContactForm|"
                   className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
                 >
-                  Sharpshooter
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
-                >
-                  Expert
+                  Contact Us
                 </a>
               </li>
             </ul>
@@ -41,47 +32,10 @@ const Footer = () => {
             <ul className="list-none footer-links">
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://form.jotform.com/hotshotpartyrentals/waiver-and-release-of-liability-wai"
                   className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
                 >
                   Safety Waiver
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
-                >
-                  Checklist
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-            <h5 className="text-xl font-bold mb-6">Help</h5>
-            <ul className="list-none footer-links">
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
-                >
-                  FAQ
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
-                >
-                  Terms
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  className="border-b border-solid border-transparent hover:border-orange-500 hover:text-orange-500"
-                >
-                  Contact Us
                 </a>
               </li>
             </ul>

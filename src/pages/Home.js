@@ -5,7 +5,6 @@ import {
   SelectionGrid,
   CardCarousel,
   Social,
-  PackagePricing,
 } from "../components";
 
 const Home = () => {
@@ -13,9 +12,8 @@ const Home = () => {
     <div className="pt-8">
       <HeaderHero />
       <CardCarousel />
-      <PackagePricing/>
-      <Social/>
       <SelectionGrid />
+      <Social/>
     </div>
   );
 };

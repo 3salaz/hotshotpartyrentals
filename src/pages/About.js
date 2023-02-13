@@ -1,4 +1,7 @@
 import React from "react";
+import about1 from "../assets/img/about-profile3.png";
+import about2 from "../assets/img/about-profile2.png";
+import about3 from "../assets/img/about-profile4.jpeg";
 
 function About() {
   return (
@@ -10,14 +13,14 @@ function About() {
               <div className="w-full px-3 sm:px-4 xl:w-2/6">
                 <div className="py-3 sm:py-4">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2FResized_Resized_20221031_185915_230278631259956.JPEG?alt=media&token=272b5f41-0c67-4d59-a466-1ee4765cf224"
+                    src={about1}
                     alt=""
                     className="w-full rounded-2xl"
                   />
                 </div>
                 <div className="py-3 sm:py-4">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2FIMG_0410_229998543067016.JPG?alt=media&token=0e4851de-07ae-4f5a-bd14-98fc3527d8d6"
+                    src={about2}
                     alt=""
                     className="w-full rounded-2xl"
                   />
@@ -26,7 +29,7 @@ function About() {
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className="relative z-0 my-4">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/hotshotpartyrentals-70927.appspot.com/o/website%2Fphotography%2FResized_Resized_20221119_184626_230346592834037.JPEG?alt=media&token=73c0a107-ffb5-45af-a7f9-9cf6c3ba4b27"
+                    src={about3}
                     alt=""
                     className="w-full rounded-2xl"
                   />

@@ -1,5 +1,4 @@
 import React from "react";
-import yelp from "../images/yelp.png";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaYelp } from "react-icons/fa";
 
@@ -34,12 +33,7 @@ function Social() {
                   Join us as we build our social presence this year on Facebook
                   and Instagram
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="h-full md:w-375">
-          <div className="flex flex-row items-center justify-center gap-6 py-8">
+                <div className="flex flex-row items-center justify-center gap-6 py-8">
               <div className="relative bottom-2 mx-3 flex justify-center items-center">
                 <ul className="flex justify-evenly items-center gap-3">
                   <li className="bg-red-200 p-4 rounded-full shadow-lg  drop-shadow-sm ">
@@ -68,6 +62,10 @@ function Social() {
                   </li>
                 </ul>
               </div>
+          </div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>
