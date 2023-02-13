@@ -41,7 +41,7 @@ const Packages = () => {
         />
         <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center gap-4">
           <div className="text-6xl md:text-8xl text-white font-bold drop-shadow-2xl">
-            <div className="text-center">Packages down below</div>
+            <div className="text-center">Packages down below </div>
           </div>
 
           <motion.button
@@ -71,7 +71,7 @@ const Packages = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
                 <p className="text-white drop-shadow-lg mb-4 text-5xl font-bold text-center">
-                  Check Them Out Below
+                  Packages
                 </p>
                 <p className="text-body-color text-base text-gray-700">
                   A deposit is required to book your event, Deposit amount due
@@ -266,6 +266,7 @@ const Packages = () => {
         </div>
 
       </section>
+      
       {/* Modals */}
       <AnimatePresence
                 initial={false}
