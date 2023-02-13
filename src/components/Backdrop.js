@@ -14,5 +14,5 @@ import {  motion } from  'framer-motion';
      </motion.div>
    )
  }
- 
- export default Backdrop
+
+export default Backdrop

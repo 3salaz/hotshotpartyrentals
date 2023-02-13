@@ -5,10 +5,16 @@ import weapon2 from "../assets/img/weapon2.png";
 import weapon3 from "../assets/img/weapon3.png";
 import weapon4 from "../assets/img/weapon4.png";
 import { MarksmanModal, SharpshooterModal, ExpertModal } from "../components";
-import { siteConfig } from "../data/initial";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Packages = () => {
+
+  let weaponsRef = React.useRef();
+  const scrollTo = (ref) => {
+    if (!ref.current) return;
+    ref.current.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+  }
+
   const [modalOneOpen, setModalOneOpen] = useState(false);
   const closeModalOne = () => setModalOneOpen(false);
   const openModalOne = () => setModalOneOpen(true);
@@ -35,30 +41,21 @@ const Packages = () => {
         />
         <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center gap-4">
           <div className="text-6xl md:text-8xl text-white font-bold drop-shadow-2xl">
-            Packages
+            <div className="text-center">Packages down below</div>
           </div>
-          <motion.button
-            className="rounded-md w-220 bg-mainOrange text-white shadow-lg p-4 hidden md:block "
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            onClick={() => window.scroll(0, 1400)}
-          >
-            View Weapons
-          </motion.button>
 
           <motion.button
-            className="rounded-md w-220 bg-mainOrange text-white shadow-lg p-4 md:hidden"
+            className="rounded-md w-220 bg-mainOrange text-white shadow-lg p-4"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            onClick={() => window.scroll(0, 1800)}
-          >
-            View Weapons
+            onClick={()=> scrollTo(weaponsRef)}
+              >
+              View Weapons
           </motion.button>
 
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            onClick={() => null}
             className="rounded-md w-220 bg-white text-black shadow-lg p-4"
           >
             <a target="_blank" href="https://form.jotform.com/230359197359164">
@@ -176,8 +173,8 @@ const Packages = () => {
         </div>
       </section>
       
-      <section className="smooth-scroll w-full flex items-align">
-        <div className="w-full min-w-350 bg-mainTeal">
+      <section ref={weaponsRef} className="smooth-scroll w-full flex items-align">
+        <div id="weaponOne" className="w-full min-w-350 bg-mainTeal">
           <div className="flex flex-col p-4 gap-4">
             <img className="bg-white rounded-lg" src={weapon1}></img>
             <h1 className="text-center text-2xl text-bold text-gray-800">
@@ -201,7 +198,7 @@ const Packages = () => {
             </div>
           </div>
         </div>
-        <div className="w-full min-w-350 bg-mainRed">
+        <div id="weaponTwo" className="w-full min-w-350 bg-mainRed">
           <div className="flex flex-col p-4 gap-4">
             <img className="bg-white rounded-lg" src={weapon2}></img>
             <h1 className="text-center text-2xl text-bold text-gray-800">
@@ -225,7 +222,7 @@ const Packages = () => {
             </div>
           </div>
         </div>
-        <div className="w-full min-w-350 bg-mainBlue">
+        <div id="weaponThree" className="w-full min-w-350 bg-mainBlue">
           <div className="flex flex-col p-4 gap-4">
             <img className="bg-white rounded-lg" src={weapon3}></img>
             <h1 className="text-center text-2xl text-bold text-gray-800">
@@ -246,7 +243,7 @@ const Packages = () => {
             </div>
           </div>
         </div>
-        <div className="w-full min-w-350 bg-mainOrange">
+        <div id="weaponFour" className="w-full min-w-350 bg-mainOrange">
           <div className="flex flex-col p-4 gap-4">
             <img className="bg-white rounded-lg" src={weapon4}></img>
             <h1 className="text-center text-2xl text-bold text-gray-800">
@@ -267,6 +264,7 @@ const Packages = () => {
             </div>
           </div>
         </div>
+
       </section>
       {/* Modals */}
       <AnimatePresence

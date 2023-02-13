@@ -66,7 +66,7 @@ function Sharpshooter({ handleClose, text }) {
             </li>
           </ul>
         </div>
-        <div className="text-5xl text-center p-4">Sharpshooter<span className="text-4xl md:text-8xl pt-8 text-center">$400</span></div>
+        <div className="text-4xl text-center p-4">Sharpshooter<span className="text-4xl md:text-6xl pt-8 text-center">$400</span></div>
         <div className="flex items-center justify-center">
           <motion.button
             whileHover={{ scale: 1.1 }}

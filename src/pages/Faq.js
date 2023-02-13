@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import waterGunHeader from '../assets/img/watergun2.png';
+import waterGunHeader from "../assets/img/watergun2.png";
 
 const Faq = () => {
   return (
@@ -19,15 +19,16 @@ const Faq = () => {
                   FAQ
                 </h2>
                 <p className="text-base text-white bg-mainTeal opacity-90 p-2 rounded-md px-8">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  Below are a list of fact and questions. If any other concern
+                  is needed you can contact us with the contact section down at
+                  the bottom of the page.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </Parallax>
-      
+
       {/* Questions Starts */}
       <section className="relative z-0 overflow-hidden bg-white pt-20 pb-12 lg:pt-[40px] lg:pb-[90px]">
         <div className="container mx-auto">
@@ -54,13 +55,15 @@ const Faq = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    What if I want more time?
+                      What if I want more time?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq1" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  Each package includes one hour of play. If you feel your part guest would prefer more time, it can be purchased in one hr increments ($150.00 per additional hr).
+                    Each package includes one hour of play. If you feel your
+                    part guest would prefer more time, it can be purchased in
+                    one hr increments ($150.00 per additional hr).
                   </p>
                 </div>
               </div>
@@ -85,13 +88,15 @@ const Faq = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    How safe are foam air pressure guns?
+                      How safe are foam air pressure guns?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq2" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  The foam balls are soft. However, we do provide safety face shields to protect faces and eyes from being injured and to discourage the little ones from eating the foam balls.
+                    The foam balls are soft. However, we do provide safety face
+                    shields to protect faces and eyes from being injured and to
+                    discourage the little ones from eating the foam balls.
                   </p>
                 </div>
               </div>
@@ -116,14 +121,19 @@ const Faq = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    How safe are gel blaster pistols/riffles?
+                      How safe are gel blaster pistols/riffles?
                     </h4>
                   </div>
                 </button>
                 <div xshow="openFaq3" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  The non-toxic, biodegradable bullets break down and are safely absorbed into the ground. We do provide safety equipment (face shield and goggles) for each participant to prevent injury.
-This is a great alternative to harsh paint ball gun bullets, which can leave welts on the skin, but we do advise long sleeves and pants to be worn if participants have sensitive skin/ bruise easily.
+                    The non-toxic, biodegradable bullets break down and are
+                    safely absorbed into the ground. We do provide safety
+                    equipment (face shield and goggles) for each participant to
+                    prevent injury. This is a great alternative to harsh paint
+                    ball gun bullets, which can leave welts on the skin, but we
+                    do advise long sleeves and pants to be worn if participants
+                    have sensitive skin/ bruise easily.
                   </p>
                 </div>
               </div>
@@ -150,20 +160,25 @@ This is a great alternative to harsh paint ball gun bullets, which can leave wel
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    Where is a good location to book my event?
+                      Where is a good location to book my event?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq4" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  To ensure a safe, open environment, we will be booking events at local parks throughout the Bay Area (locations are subject to an additional distance fee). Each reservation area will be checked for safety and availability prior to the event date. If you plan on reserving a park rental, please keep in mind that the reservation area for the party must be a safe distance away from play structures, sitting areas, or other events.
+                    To ensure a safe, open environment, we will be booking
+                    events at local parks throughout the Bay Area (locations are
+                    subject to an additional distance fee). Each reservation
+                    area will be checked for safety and availability prior to
+                    the event date. If you plan on reserving a park rental,
+                    please keep in mind that the reservation area for the party
+                    must be a safe distance away from play structures, sitting
+                    areas, or other events.
                   </p>
                 </div>
               </div>
               <div className="single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
-                <button
-                  className="faq-btn flex w-full text-left"
-                >
+                <button className="faq-btn flex w-full text-left">
                   <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
                     <svg
                       width="17"
@@ -180,13 +195,16 @@ This is a great alternative to harsh paint ball gun bullets, which can leave wel
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    How many people can participate? 
+                      How many people can participate?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq5" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  Each package includes 10 participants. Additionally participants can be added (at $30.00 per additional participant). We would advise no more than 20 at a time to ensure safety for all participants. 
+                    Each package includes 10 participants. Additionally
+                    participants can be added (at $30.00 per additional
+                    participant). We would advise no more than 20 at a time to
+                    ensure safety for all participants.
                   </p>
                 </div>
               </div>
@@ -211,13 +229,16 @@ This is a great alternative to harsh paint ball gun bullets, which can leave wel
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    Is the rental equipment clean?
+                      Is the rental equipment clean?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq6" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  Yes. We take every safety precaution, especially with covid and other illnesses. All equipment is cleaned and disinfected after each rental and stored in a secure location. 
+                    Yes. We take every safety precaution, especially with covid
+                    and other illnesses. All equipment is cleaned and
+                    disinfected after each rental and stored in a secure
+                    location.
                   </p>
                 </div>
               </div>
@@ -242,13 +263,16 @@ This is a great alternative to harsh paint ball gun bullets, which can leave wel
                   </div>
                   <div className="w-full">
                     <h4 className="text-lg font-semibold text-mainTeal">
-                    What will happen if it rains on the day of my event?
+                      What will happen if it rains on the day of my event?
                     </h4>
                   </div>
                 </button>
                 <div x-show="openFaq6" className="faq-content pl-[62px]">
                   <p className="py-3 text-base leading-relaxed text-body-color">
-                  We are able to keep the event even if it rains. If you do not prefer to have your event if it does rain, please keep in mind that the rental deposit is nonrefundable and perhaps booking an event at another time would be best
+                    We are able to keep the event even if it rains. If you do
+                    not prefer to have your event if it does rain, please keep
+                    in mind that the rental deposit is nonrefundable and perhaps
+                    booking an event at another time would be best
                   </p>
                 </div>
               </div>
@@ -285,7 +309,6 @@ This is a great alternative to harsh paint ball gun bullets, which can leave wel
             </defs>
           </svg>
         </div>
-
       </section>
       {/* Question Ends */}
     </>
