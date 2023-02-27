@@ -178,7 +178,7 @@ const Packages = () => {
           <div className="flex flex-col p-4 gap-4">
             <img className="bg-white rounded-lg" src={weapon1}></img>
             <h1 className="text-center text-2xl text-bold text-gray-800">
-              Pisol M1911
+              Pistol M1911
             </h1>
             <p className="text-center h-150">
               Top hopper that can be filled with bullets. Battery is in extended

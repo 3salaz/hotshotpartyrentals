@@ -26,7 +26,7 @@ const Navbar = () => {
             className="w-20 rounded-lg"
           />
           <div className="text-white text-xl font-bold">
-            HotShot Party Rentals
+            Hotshot LLC
           </div>
         </Link>
 

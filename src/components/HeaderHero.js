@@ -7,7 +7,6 @@ function HeaderHero() {
   let header = siteConfig["home"]["sections"]["header"];
   return (
     <header className="flex justify-center items-center py-16 lg:py-28">
-
         <div className="flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-6/12">
             <div className="flex items-center justify-left">
@@ -113,6 +112,9 @@ function HeaderHero() {
                   </a>
                 </li>
               </ul>
+              <div className="w-full flex items-center justify-center p-2">
+                <button className="p-4 rounded-lg w-250 bg-mainBlue text-white"><a href="tel:(925)517-3939">Call Now:(925)517-3939</a></button>
+              </div>
               <div className="clients pt-16">
                 <h6 className="text-body-color mb-2 flex items-center text-xs font-normal">
                   Some Of Our Clients

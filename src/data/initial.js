@@ -16,7 +16,7 @@ export let siteConfig = {
         sections: {
             header: {
                 featuredHeaderImg: featuredHeader,
-                headerText: 'HotShot PartyRentals',
+                headerText: 'Hotshot LLC',
                 headerSubText: 'Thank you for visiting Hot Shot party rentals. We value your interest in our company and hope that we will be able to assist in planning your next event.',
                 links: {
                     buttonLink: {
